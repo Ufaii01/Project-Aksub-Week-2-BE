@@ -8,9 +8,9 @@ export const newsSchema = z.object({
 })
 
 export const newsEditSchema = z.object({
-    title: z.string().trim().optional(),
-    desc: z.string().trim().optional(),
-    writer: z.string().trim().optional(),
+    title: z.string().trim(),
+    desc: z.string().trim(),
+    writer: z.string().trim(),
     thumbnail: z.string().trim().optional()
 })
 

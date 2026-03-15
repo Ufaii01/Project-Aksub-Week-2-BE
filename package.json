@@ -7,7 +7,6 @@
     "mariadb": "^3.5.2",
     "multer": "^2.1.1",
     "mysql2": "^3.19.1",
-    "prisma": "^7.5.0",
     "zod": "^4.3.6"
   },
   "prisma": {
@@ -20,9 +19,26 @@
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/multer": "^2.1.0",
-    "@types/node": "^25.4.0",
+    "@types/node": "^25.5.0",
     "nodemon": "^3.1.14",
+    "prisma": "^7.5.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
-  }
+  },
+  "name": "projectweek2-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ufaii01/Project-Aksub-Week-2-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ufaii01/Project-Aksub-Week-2-BE/issues"
+  },
+  "homepage": "https://github.com/Ufaii01/Project-Aksub-Week-2-BE#readme"
 }

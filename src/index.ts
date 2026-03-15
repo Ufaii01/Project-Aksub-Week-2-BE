@@ -4,6 +4,7 @@ import route from "./routes/news.route";
 import errorHandler from "./middlewares/error.middleware";
 
 
+
 const app = express();
 const PORT = 3000;
 

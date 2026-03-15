@@ -2,7 +2,7 @@ import express from "express";
 import NewsController from "../controllers/news.controller";
 import { upload } from "../middlewares/multer.middleware";
 
-const route = express();
+const route = express.Router();
 
 route.get("/", NewsController.getAllNews);
 route.get("/unPublished", NewsController.getUnPublishedNews);
