@@ -1,9 +1,7 @@
 import express from "express";
 import path from "path";
-import route from "./routes/news.route";
+import route from "./routes/news.route.js";
 import errorHandler from "./middlewares/error.middleware";
-
-
 
 const app = express();
 const PORT = 3000;
